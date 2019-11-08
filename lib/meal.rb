@@ -4,7 +4,7 @@ class Meal
     @waiter = waiter_obj
     @customer = customer_obj
     @total = total
-    @tip = top
+    @tip = tip
   end
 
 end
