@@ -7,6 +7,7 @@ class Meal
     @customer = customer_obj
     @total = total
     @tip = tip
+    @@all << self
   end
 
 end
