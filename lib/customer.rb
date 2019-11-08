@@ -1,6 +1,6 @@
 class Customer
   
-  def initialize()
+  def initialize(name, age)
   end
   
 end
