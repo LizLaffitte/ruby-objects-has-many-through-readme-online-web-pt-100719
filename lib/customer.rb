@@ -14,7 +14,6 @@ class Customer
   
   def new_meal(waiter_obj, total, tip)
     Meal.new(waiter_obj, self, total, tip)
-    
   end
   
 end
