@@ -22,7 +22,7 @@ class Customer
   
   def waiters
     my_waiters = []
-    self.meals.each{|meal| meal.waiter}
+    self.meals.each{|meal| my_waiters << meal.waiter}
     
   end
   
