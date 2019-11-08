@@ -1,6 +1,6 @@
 class Meal
 
-  def initialize()
+  def initialize(waiter_obj, customer_obj, total, tip)
   end
 
 end
