@@ -12,8 +12,8 @@ class Waiter
     @@all
   end
   
-  def new_meal(customer_obj)
-    
+  def new_meal(customer_obj, total, tip)
+    Meal.new()    
   end
 
 end
