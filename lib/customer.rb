@@ -16,4 +16,10 @@ class Customer
     Meal.new(waiter_obj, self, total, tip)
   end
   
+  def meals
+  end
+  
+  def waiters
+  end
+  
 end
