@@ -12,7 +12,7 @@ class Waiter
     @@all
   end
   
-  def new_meal
+  def new_meal(customer_obj)
     
   end
 
