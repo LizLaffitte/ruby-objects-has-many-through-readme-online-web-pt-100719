@@ -21,7 +21,7 @@ class Waiter
   end
   
   def best_tipper
-    self.meals.select{|meal| meal }
+    self.meals.select{|mealone, mealtwo| mealone <=> mealtwo }
   end
 
 end
