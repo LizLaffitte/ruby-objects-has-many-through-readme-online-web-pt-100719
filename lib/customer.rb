@@ -21,6 +21,7 @@ class Customer
   end
   
   def waiters
+    my_waiters = []
     self.meals.each{|meal| meal.waiter}
     
   end
